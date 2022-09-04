@@ -21,7 +21,14 @@
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@atom/*": ["src/app/components/atoms/*"],
+      "@molecule/*": ["src/app/components/molecules/*"],
+      "@organism/*": ["src/app/components/organisms/*"],
+      "@page/*": ["src/app/components/pages/*"],
+      "@template/*": ["src/app/components/templates/*"],
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

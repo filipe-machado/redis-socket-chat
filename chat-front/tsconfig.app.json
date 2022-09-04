@@ -3,7 +3,15 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+    "types": [],
+    "baseUrl": "./",
+    "paths": {
+      "@atom/*": ["src/app/components/atoms/*"],
+      "@molecule/*": ["src/app/components/molecules/*"],
+      "@organism/*": ["src/app/components/organisms/*"],
+      "@page/*": ["src/app/components/pages/*"],
+      "@template/*": ["src/app/components/templates/*"],
+    }
   },
   "files": [
     "src/main.ts",
