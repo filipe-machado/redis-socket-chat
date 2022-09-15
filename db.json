@@ -1,0 +1,51 @@
+{
+  "users": [{
+      "id": 1,
+      "name": "Neo",
+      "src": {
+        "alt": "Neo's avatar",
+        "path": "https://miro.medium.com/max/484/1*U2Uf7UK2fobVl6yCQQt-Ag.png"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Smith",
+      "src": {
+        "alt": "Smith's avatar",
+        "path": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2WxKqTVdqtMSuPE31UaL7tlDrnTw1ubKKb3D0LRe_XlxPltoOd8cNXMDYi6YdYbPEPgc&usqp=CAU"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "userId": 1,
+      "to": {
+        "userId": 2,
+        "history": [{
+            "time": "14:38",
+            "text": "E ai"
+          },
+          {
+            "time": "14:38",
+            "text": "Acordei mais um"
+          }
+        ]
+      }
+    },
+    {
+      "userId": 2,
+      "to": {
+        "userId": 1,
+        "history": [{
+            "time": "14:40",
+            "text": "Não importa"
+          },
+          {
+            "time": "14:41",
+            "text": "Ninguém está realmente desperto"
+          }
+        ]
+      }
+    }
+  ]
+}
